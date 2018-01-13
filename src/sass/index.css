@@ -1,0 +1,15 @@
+
+body{
+  background-color:#ddd;
+  color:green;
+}
+#imgGirl{
+  background-image:url(../images/100.jpg);
+  height:285px;
+  width:285px;
+  transform: rotate(5deg);
+  box-shadow:1px 1px 0 rgba(0,0,0,.1);
+}
+#aaa{
+  color:#000;
+}

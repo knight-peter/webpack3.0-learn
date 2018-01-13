@@ -1,0 +1,10 @@
+$nav-color:#fff;
+#sassNav{
+  $width:100%;
+  width:$width;
+  height:30px;
+  background-color:$nav-color;
+  border-bottom:1px solid #ddd;
+  border-radius: 5px;
+  box-shadow:1px 1px 0 rgba(0,0,0,.1);
+}
