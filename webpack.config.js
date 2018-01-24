@@ -151,7 +151,7 @@ module.exports = {
       template: './src/index.html'
     }),
     // '/css/index.css'分离后生成的路径和文件名
-    new extractTextPlugin('/css/index.css'),
+    new extractTextPlugin('/css/[name].css'),
     /* 删除多余css */
     new PurifyCSSPlugin({
       // 当获取到匹配的文件的时候执行回调.如果需要同步的获取文件列表 var files = glob.sync(pattern, [options])
